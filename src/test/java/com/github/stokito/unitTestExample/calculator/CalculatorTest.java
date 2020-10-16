@@ -19,7 +19,7 @@ public class CalculatorTest {
 
 	public void testMinus() {
 		Calculator calculator = new Calculator();
-		int result = calculator.minus(10, 5);
+		int result = calculator.subtract(10, 5);
 		Assert.assertEquals(5, result);
 	}
 }
