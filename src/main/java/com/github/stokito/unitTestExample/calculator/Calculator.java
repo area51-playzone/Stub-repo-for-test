@@ -6,4 +6,8 @@ public class Calculator {
 		return a + b;
 	}
 
+	public int incrementBy4(int a) {
+		return a + 4;
+	}
+
 }
