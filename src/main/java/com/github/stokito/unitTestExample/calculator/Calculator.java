@@ -2,7 +2,7 @@ package com.github.stokito.unitTestExample.calculator;
 
 public class Calculator {
 
-	public int doAddition(int a, int b) {
+	public int sum(int a, int b) {
 		return a + b;
 	}
 
@@ -10,4 +10,7 @@ public class Calculator {
 		return a + 4;
 	}
 
+	public int minus(int a , int b) {
+		return a - b ;
+	}
 }
