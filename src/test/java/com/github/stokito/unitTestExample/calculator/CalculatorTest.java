@@ -5,7 +5,17 @@ import org.junit.Test;
 
 public class CalculatorTest {
 
-	public void testSum() {
+
+
+
+
+
+
+
+
+
+
+	public void testSummation() {
 		// Given
 		Calculator calculator = new Calculator();
 		// When
