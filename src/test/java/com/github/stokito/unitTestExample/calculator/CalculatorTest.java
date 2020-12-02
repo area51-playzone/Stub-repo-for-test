@@ -4,18 +4,8 @@ import junit.framework.Assert;
 import org.junit.Test;
 
 public class CalculatorTest {
-
-
-
-
-
-
-
-
-
-
-
-	public void testSummation() {
+	@Test
+	public void testSumagain() {
 		// Given
 		Calculator calculator = new Calculator();
 		// When
