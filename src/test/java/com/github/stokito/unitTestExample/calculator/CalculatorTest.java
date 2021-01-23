@@ -20,5 +20,10 @@ public class CalculatorTest {
 		Calculator calculator = new Calculator();
 		int result = calculator.subtract(10, 5);
 		Assert.assertEquals(5, result);
+		// When
+		result = calculator.sum(2.5, 2.5);
+		int iby4 = calculator.incrementBy4(result);
+		calculator.sum(result, 5);
+		Assert.assertTrue(result == 5);
 	}
 }
