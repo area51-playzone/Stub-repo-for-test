@@ -21,7 +21,9 @@ public class CalculatorTest {
 		int result = calculator.subtract(10, 5);
 		Assert.assertEquals(5, result);
 		// When
-		result = calculator.sum(2.5, 2.5);
+		float a = 5.0;
+		float b = 6.0;
+		result = calculator.sum(a, b);
 		int iby4 = calculator.incrementBy4(result);
 		calculator.sum(result, 5);
 		Assert.assertTrue(result == 5);
