@@ -4,6 +4,7 @@ import junit.framework.Assert;
 import org.junit.Test;
 
 public class CalculatorTest {
+	@Override
 	@Test
 	public void testSumagain() {
 		// Given
