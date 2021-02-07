@@ -5,6 +5,7 @@ import org.junit.Test;
 
 public class CalculatorTest {
 	@Test
+	@Override
 	public void testSumagain() {
 		// Given
 		Calculator calculator = new Calculator();
