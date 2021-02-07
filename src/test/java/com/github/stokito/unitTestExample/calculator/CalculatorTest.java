@@ -6,6 +6,7 @@ import org.junit.Test;
 public class CalculatorTest {
 	@Override
 	@Test
+	@SuppressWarnings("deprecation")
 	public void testSumagain() {
 		// Given
 		Calculator calculator = new Calculator();
