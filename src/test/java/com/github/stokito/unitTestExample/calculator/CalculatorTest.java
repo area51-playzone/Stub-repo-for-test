@@ -8,6 +8,7 @@ public class CalculatorTest {
 	@Override
 	public void testSumagain() {
 		// Given
+		// testing annotations
 		Calculator calculator = new Calculator();
 		// When
 		int result = calculator.sum(2, 2);
