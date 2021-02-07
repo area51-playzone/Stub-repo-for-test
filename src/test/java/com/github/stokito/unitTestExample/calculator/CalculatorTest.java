@@ -7,6 +7,10 @@ public class CalculatorTest {
 	@Override
 	@Test
 	@SuppressWarnings("deprecation")
+	@MyCustomAnnotation(
+ 	   studentName="Chaitanya",
+    	   stuAddress="Agra, India"
+	)
 	public void testSumagain() {
 		// Given
 		Calculator calculator = new Calculator();
