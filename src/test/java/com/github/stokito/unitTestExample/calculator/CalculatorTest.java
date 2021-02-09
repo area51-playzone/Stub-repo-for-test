@@ -6,7 +6,7 @@ import org.junit.Test;
 public class CalculatorTest {
 	@Test
 	@Override
-	public void testSumagain() {
+	public void testSumagain()  throws ArithmeticException, ArrayIndexOutOfBoundsExceptionthrows {
 		// Given
 		// testing annotations
 		Calculator calculator = new Calculator();
