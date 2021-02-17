@@ -6,6 +6,10 @@ import org.junit.Test;
 public class CalculatorTest {
 	@Test
 	@Override
+	@MyCustomAnnotation(
+    	testName="testSumAgain",
+    	startline="13"
+	)
 	public void testSumagain()  throws ArithmeticException, ArrayIndexOutOfBoundsExceptionthrows {
 		// Given
 		// testing annotations
